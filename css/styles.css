@@ -1,0 +1,172 @@
+h1 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+
+.container-fluid {
+    padding: 3% 10% 11%;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.ui-plato {
+    width: 18%;
+    transform: rotate(15deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA section*/
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 0 0;
+}
+
+.cta-text {
+    font-family: 'Lilita One';
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 2% 2%;
+}
+
+.icon-footer {
+    padding: 1% 1% 0.5%;
+}
+
+@media (max-width:990px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .ui-plato {
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+    }
+}
